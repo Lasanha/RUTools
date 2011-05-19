@@ -1,0 +1,33 @@
+RU-Tools
+********
+
+Histórico
+---------
+
+  Escrevi essas rotinas para fazer scrapping do cardápio do RU da UFSCar-São
+  Carlos e montar um RSS, assim eu podia saber o que teria no restaurante
+  diretamente no Reader ou qualquer outro lugar que aceitasse RSS. Depois saiu o
+  Twitter, criei um @ru_ufscar e escrevi um script que mandava os dados que eu
+  extraia para essa conta.
+
+  Mas o RU de São Carlos nao costuma atualizar muito o site, então acabei
+  abandonando. E eu tambem rodava ele no servidor da universidade, que vivia
+  mudando de configurações e toda hora dava pau.
+
+  Depois, no FISL de 2010, fiz o scrapper para o RU da UFSCar de Sorocaba, que
+  felizmente era atualizado com mais frequência. Apesar de colocar todos os
+  dados, nunca animei a colocar ele para funcionar no @ru_ufscar.
+
+  Agora juntei esse código todo e pus nesse repositório. Bom proveito para quem
+  quiser aproveitar!
+
+Componentes
+-----------
+
+ rurss.py - script que extrai os dados (teste contendo Sorocaba)
+
+ rubot/ - um bot para gtalk
+
+ rutwitter/ - script para postar o cardápio do dia no Twitter
+
+ rurss/ - versão antiga, que extraia os dados e gerava o RSS (com Hand)
